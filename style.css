@@ -1,0 +1,22 @@
+header {
+    font-family: 'Arial';
+}
+body{
+    background-color: #fffafafd;
+}
+
+/* header */
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.377), rgba(22, 22, 22, 0.7)), url("http://wallup.net/wp-content/uploads/2016/07/20/34571-simple_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.jumbotron .fab{
+    color: white;
+    margin: auto 5px;
+    padding: 10px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+}

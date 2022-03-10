@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vittae</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <link href='https://fonts.google.com/specimen/Smooch+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/407f1e569e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Membuat Navigation Bar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark container-fluid" style="background-color: #3d3d3de5;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#edu">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Membuat Header-->
+    <header>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container text-light py-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="container">
+                            <img src="data:image/jpeg;base64,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" alt="people" style="width: 250px;" class="rounded-circle mx-auto">
+                            <br>
+                            <h1 class="display-4">Yaspin Andika Muhamad Nur Cholis</h1>
+                            <h5><em>2010631250081 || 4C </em></h5>
+                            <br>
+                        </div>
+                        <!--Logo Sosmed-->
+                        <div class="logo h5">
+                            <a><i class="fab fa-facebook-f" style="background-color: #3B5998;"></i></a>
+                            <a><i class="fab fa-linkedin-in" style="background-color: #007bb5;"></i></a>
+                            <a><i class="fab fa-twitter" style="background-color: #55ACEE;"></i></a>
+                            <a><i class="fab fa-google-plus" style="background-color: #dd4b39;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Membuat Biodata-->
+    <div class="container p-2 mb-4" id="about">
+        <div class="card shadow" style="background-color: #fdfdfd;">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-6 p-4">
+                        <h4 class="card-title"><strong>ABOUT ME</strong></h4>
+                        <hr>
+                        <p class="card-text">
+                            Haiii!! Perkenalkan, saya adalah seorang mahasiswa Universitas Singaperbangsa Karawang
+                            Jurusan Sistem Informasi. Saat ini saya sedang menempuh perkuliahan di semester 4.
+                            <br>
+                            Saya memiliki hobi bermain game dan menjual beberapa akun game
+                            Selain itu, saya juga ikut mengurus bisnis orang tua saya yaitu berjualan mie ayam.
+                        </p>
+                    </div>
+                    <div class="col-sm-6 p-4">
+                        <h4 class="card-title"><strong>Basic Information</strong></h4>
+                        <hr>
+                        <p class="card-text">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <p class="my-0 my-sm-1"><strong>UMUR</strong></p>
+                                </div>
+                                <div class="col">
+                                    19 years old
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <p class="my-0 my-sm-1"><strong>EMAIL</strong></p>
+                                </div>
+                                <div class="col">2010631250081@student.unsika.ac.id</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <p class="my-0 my-sm-1"><strong>PHONE</strong></p>
+                                </div>
+                                <div class="col">+6281290414111</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <p class="my-0 my-sm-1"><strong>ADDRESS</strong></p>
+                                </div>
+                                <div class="col">Jl. Kebangsaan RT017/RW008, Mangunharjo, Jawa Tengah.</div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Informasi utama-->
+    <div class="information">
+            <div class="card shadow" style="background-color: #fdfdfd;">
+                <div class="card-body p-5">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4 id="edu"><strong>EDUCATION</strong></h4>
+                                <hr>
+                                <h6><strong>Universitas Singaperbangsa Karawang</strong></h6>
+                                <p>from August 2020 until now</p>
+                                <ul class="list-unstyled">
+                                    <ul style="list-style-type: disc;">
+                                        <li>Sistem Informasi, 2020.</li>
+                                    </ul>
+                                </ul>
+                                <br>
+                                <h6><strong>SMA Negeri 1 CIBITUNG</strong></h6>
+                                <p>from 2017 until 2020 (Graduate)</p>
+                                <ul class="list-unstyled">
+                                    <ul style="list-style-type: disc;">
+                                        <li>MIPA.</li>
+                                <br>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4 id="skills"><strong>SKILLS</strong></h4>
+                                <hr>
+                                <ul>
+                                    <li>Gaming</li>
+                                    <li>Microsoft Office Family</li>
+                                    <li>Editor</li>
+                                    <li>Canva</li>
+                                </ul>
+                                <br>
+                            <h4><strong>CERTIFICATE</strong></h4>
+                                <hr>
+                                <ul>
+                                    <li>-</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>  
+
+     <!--Membuat Form-->
+     <div class="container-fluid form p-5 mb-3">
+        <form action="/action.php">
+            <h4 class="message">
+                Mau memberikan Saya Sebuah Pesan?
+            </h4>
+            <div class="form-group">
+                <label for="full">Full Name : </label>
+                <input type="text" class="form-control" id="full" placeholder="Masukkan nama kamu lengkap kamu disini">
+            <br>
+            <div class="form-group">
+                <label for="email">Email : </label>
+                <input type="text" class="form-control" placeholder="Masukkan alamat email kamu disini">
+            </div>
+            <div class="form-group">
+                <label for="messages">Tinggalkan Pesan Yang Membangun :</label>
+                <textarea name="" id="messages" cols="30" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="row float-right align-items-center">
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+        <br>
+        <br>   
+        </form>
+    </div>
+</body>
+</html>
